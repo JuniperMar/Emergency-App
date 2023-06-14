@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D8908C3A2A3A3E6700EA1948 /* notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C392A3A3E6700EA1948 /* notes.swift */; };
+		D8908C3C2A3A3E8C00EA1948 /* medInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C3B2A3A3E8C00EA1948 /* medInfo.swift */; };
+		D8908C3E2A3A3EA700EA1948 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C3D2A3A3EA700EA1948 /* calendar.swift */; };
+		D8908C402A3A3EB500EA1948 /* tracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C3F2A3A3EB500EA1948 /* tracker.swift */; };
+		D8908C422A3A3ECA00EA1948 /* hotlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C412A3A3ECA00EA1948 /* hotlines.swift */; };
+		D8908C442A3A3ED900EA1948 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C432A3A3ED900EA1948 /* map.swift */; };
+		D8908C462A3A3EF700EA1948 /* additionalResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C452A3A3EF700EA1948 /* additionalResources.swift */; };
 		D89469A02A38F99F00992299 /* Emergency_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D894699F2A38F99F00992299 /* Emergency_AppApp.swift */; };
 		D89469A22A38F99F00992299 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89469A12A38F99F00992299 /* ContentView.swift */; };
 		D89469A42A38F9A000992299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89469A32A38F9A000992299 /* Assets.xcassets */; };
@@ -14,6 +21,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D8908C392A3A3E6700EA1948 /* notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes.swift; sourceTree = "<group>"; };
+		D8908C3B2A3A3E8C00EA1948 /* medInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medInfo.swift; sourceTree = "<group>"; };
+		D8908C3D2A3A3EA700EA1948 /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
+		D8908C3F2A3A3EB500EA1948 /* tracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tracker.swift; sourceTree = "<group>"; };
+		D8908C412A3A3ECA00EA1948 /* hotlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hotlines.swift; sourceTree = "<group>"; };
+		D8908C432A3A3ED900EA1948 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		D8908C452A3A3EF700EA1948 /* additionalResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = additionalResources.swift; sourceTree = "<group>"; };
 		D894699C2A38F99F00992299 /* Emergency App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Emergency App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D894699F2A38F99F00992299 /* Emergency_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Emergency_AppApp.swift; sourceTree = "<group>"; };
 		D89469A12A38F99F00992299 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +67,13 @@
 			children = (
 				D894699F2A38F99F00992299 /* Emergency_AppApp.swift */,
 				D89469A12A38F99F00992299 /* ContentView.swift */,
+				D8908C392A3A3E6700EA1948 /* notes.swift */,
+				D8908C3B2A3A3E8C00EA1948 /* medInfo.swift */,
+				D8908C3D2A3A3EA700EA1948 /* calendar.swift */,
+				D8908C3F2A3A3EB500EA1948 /* tracker.swift */,
+				D8908C412A3A3ECA00EA1948 /* hotlines.swift */,
+				D8908C432A3A3ED900EA1948 /* map.swift */,
+				D8908C452A3A3EF700EA1948 /* additionalResources.swift */,
 				D89469A32A38F9A000992299 /* Assets.xcassets */,
 				D89469A52A38F9A000992299 /* Preview Content */,
 			);
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8908C3A2A3A3E6700EA1948 /* notes.swift in Sources */,
 				D89469A22A38F99F00992299 /* ContentView.swift in Sources */,
+				D8908C442A3A3ED900EA1948 /* map.swift in Sources */,
+				D8908C422A3A3ECA00EA1948 /* hotlines.swift in Sources */,
+				D8908C402A3A3EB500EA1948 /* tracker.swift in Sources */,
+				D8908C462A3A3EF700EA1948 /* additionalResources.swift in Sources */,
+				D8908C3C2A3A3E8C00EA1948 /* medInfo.swift in Sources */,
 				D89469A02A38F99F00992299 /* Emergency_AppApp.swift in Sources */,
+				D8908C3E2A3A3EA700EA1948 /* calendar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
