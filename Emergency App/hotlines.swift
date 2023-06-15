@@ -17,7 +17,7 @@ struct hotlines: View {
             VStack(spacing: 20) {
                     
                 VStack {
-                        Text("911")
+                        Text("me")
                             .font(.title2)
                             .foregroundColor(Color.white)
                             .multilineTextAlignment(.leading)
