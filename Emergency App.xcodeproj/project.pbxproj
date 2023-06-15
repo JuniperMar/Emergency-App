@@ -18,6 +18,10 @@
 		D89469A22A38F99F00992299 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D89469A12A38F99F00992299 /* ContentView.swift */; };
 		D89469A42A38F9A000992299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89469A32A38F9A000992299 /* Assets.xcassets */; };
 		D89469A72A38F9A000992299 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D89469A62A38F9A000992299 /* Preview Assets.xcassets */; };
+		D8B94FD42A3A86BC0020A345 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B94FD32A3A86BC0020A345 /* ToDoItem.swift */; };
+		D8B94FD62A3A86FD0020A345 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B94FD52A3A86FD0020A345 /* NewToDoView.swift */; };
+		D8B94FDC2A3A88E00020A345 /* Emergency App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8B94FDA2A3A88E00020A345 /* Emergency App.xcdatamodeld */; };
+		D8B94FDE2A3A89440020A345 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B94FDD2A3A89440020A345 /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +37,10 @@
 		D89469A12A38F99F00992299 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D89469A32A38F9A000992299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D89469A62A38F9A000992299 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D8B94FD32A3A86BC0020A345 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		D8B94FD52A3A86FD0020A345 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		D8B94FDB2A3A88E00020A345 /* Emergency App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Emergency App.xcdatamodel"; sourceTree = "<group>"; };
+		D8B94FDD2A3A89440020A345 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				D894699E2A38F99F00992299 /* Emergency App */,
+				D8B94FDA2A3A88E00020A345 /* Emergency App.xcdatamodeld */,
 				D894699D2A38F99F00992299 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,7 +79,7 @@
 				D8908C392A3A3E6700EA1948 /* notes.swift */,
 				D8908C3B2A3A3E8C00EA1948 /* medInfo.swift */,
 				D8908C3D2A3A3EA700EA1948 /* calendar.swift */,
-				D8908C3F2A3A3EB500EA1948 /* tracker.swift */,
+				D8B94FDF2A3A8B3E0020A345 /* trackerFolder */,
 				D8908C412A3A3ECA00EA1948 /* hotlines.swift */,
 				D8908C432A3A3ED900EA1948 /* map.swift */,
 				D8908C452A3A3EF700EA1948 /* additionalResources.swift */,
@@ -86,6 +95,17 @@
 				D89469A62A38F9A000992299 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D8B94FDF2A3A8B3E0020A345 /* trackerFolder */ = {
+			isa = PBXGroup;
+			children = (
+				D8908C3F2A3A3EB500EA1948 /* tracker.swift */,
+				D8B94FDD2A3A89440020A345 /* Persistence.swift */,
+				D8B94FD32A3A86BC0020A345 /* ToDoItem.swift */,
+				D8B94FD52A3A86FD0020A345 /* NewToDoView.swift */,
+			);
+			path = trackerFolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,10 +178,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8B94FD62A3A86FD0020A345 /* NewToDoView.swift in Sources */,
 				D8908C3A2A3A3E6700EA1948 /* notes.swift in Sources */,
+				D8B94FDC2A3A88E00020A345 /* Emergency App.xcdatamodeld in Sources */,
 				D89469A22A38F99F00992299 /* ContentView.swift in Sources */,
+				D8B94FD42A3A86BC0020A345 /* ToDoItem.swift in Sources */,
 				D8908C442A3A3ED900EA1948 /* map.swift in Sources */,
 				D8908C422A3A3ECA00EA1948 /* hotlines.swift in Sources */,
+				D8B94FDE2A3A89440020A345 /* Persistence.swift in Sources */,
 				D8908C402A3A3EB500EA1948 /* tracker.swift in Sources */,
 				D8908C462A3A3EF700EA1948 /* additionalResources.swift in Sources */,
 				D8908C3C2A3A3E8C00EA1948 /* medInfo.swift in Sources */,
@@ -367,6 +391,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D8B94FDA2A3A88E00020A345 /* Emergency App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D8B94FDB2A3A88E00020A345 /* Emergency App.xcdatamodel */,
+			);
+			currentVersion = D8B94FDB2A3A88E00020A345 /* Emergency App.xcdatamodel */;
+			path = "Emergency App.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D89469942A38F99F00992299 /* Project object */;
 }
