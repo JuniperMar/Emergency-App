@@ -63,6 +63,49 @@ struct tracker: View {
                 }
             }
         }
+   
+//    private func markTaskComplete(offsets: IndexSet) {
+//        withAnimation {
+//            offsets.forEach { index in
+//                // Handle marking the task as complete
+//            }
+//        }
+//
+//        List {
+//            ForEach(toDoItems) { toDoItem in Text(toDoItem.title)
+//            .frame(maxWidth: .infinity, alignment: .leading)
+//            .swipeActions(edge: .leading) {
+//                Button {
+//                    markTaskComplete(offsets: [toDoItem.id])
+//                } label: {
+//                    Label("Complete", systemImage: "checkmark")
+//                }
+//                .tint(.green)
+//            }
+//            .swipeActions(edge: .trailing) {
+//                Button {
+//                    deleteTask(offsets: [toDoItem.id])
+//                } label: {
+//                    Label("Delete", systemImage: "trash")
+//                }
+//                .tint(.red)
+//            }
+//        }
+//
+//    }
+//
+//    private func completedTask(offsets: IndexSet) {
+//            withAnimation {
+//                offsets.map { toDoItems[$0] }.forEach(context.delete)
+//
+//                do {
+//                    try context.save()
+//                } catch {
+//                    print(error)
+//                }
+//            }
+//        }
+
     
 }
 
