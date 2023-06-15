@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Text("App Name")
+                Text("EmergAid")
                     .font(.title)
                     .fontWeight(.bold)
                     .multilineTextAlignment(.leading)
