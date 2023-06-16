@@ -29,6 +29,10 @@
 		D8B94FD62A3A86FD0020A345 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B94FD52A3A86FD0020A345 /* NewToDoView.swift */; };
 		D8B94FDC2A3A88E00020A345 /* Emergency App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D8B94FDA2A3A88E00020A345 /* Emergency App.xcdatamodeld */; };
 		D8B94FDE2A3A89440020A345 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B94FDD2A3A89440020A345 /* Persistence.swift */; };
+		D8D11B3C2A3CC0CF001F66EB /* heart.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D11B3B2A3CC0CF001F66EB /* heart.swift */; };
+		D8D11B3F2A3CC123001F66EB /* strokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D11B3E2A3CC123001F66EB /* strokes.swift */; };
+		D8D11B412A3CC171001F66EB /* choking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D11B402A3CC171001F66EB /* choking.swift */; };
+		D8D11B432A3CC199001F66EB /* burns.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D11B422A3CC199001F66EB /* burns.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +59,10 @@
 		D8B94FD52A3A86FD0020A345 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
 		D8B94FDB2A3A88E00020A345 /* Emergency App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Emergency App.xcdatamodel"; sourceTree = "<group>"; };
 		D8B94FDD2A3A89440020A345 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D8D11B3B2A3CC0CF001F66EB /* heart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = heart.swift; sourceTree = "<group>"; };
+		D8D11B3E2A3CC123001F66EB /* strokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strokes.swift; sourceTree = "<group>"; };
+		D8D11B402A3CC171001F66EB /* choking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = choking.swift; sourceTree = "<group>"; };
+		D8D11B422A3CC199001F66EB /* burns.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = burns.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,7 +127,7 @@
 				D8908C3D2A3A3EA700EA1948 /* calendar.swift */,
 				D8B94FDF2A3A8B3E0020A345 /* trackerFolder */,
 				D83C860F2A3C37DE00F2B1B5 /* hotlinesFolder */,
-				D8908C452A3A3EF700EA1948 /* additionalResources.swift */,
+				D8D11B3D2A3CC0E2001F66EB /* additonalResourcesFolder */,
 				D89469A32A38F9A000992299 /* Assets.xcassets */,
 				D89469A52A38F9A000992299 /* Preview Content */,
 			);
@@ -143,6 +151,18 @@
 				D8B94FD52A3A86FD0020A345 /* NewToDoView.swift */,
 			);
 			path = trackerFolder;
+			sourceTree = "<group>";
+		};
+		D8D11B3D2A3CC0E2001F66EB /* additonalResourcesFolder */ = {
+			isa = PBXGroup;
+			children = (
+				D8908C452A3A3EF700EA1948 /* additionalResources.swift */,
+				D8D11B422A3CC199001F66EB /* burns.swift */,
+				D8D11B3E2A3CC123001F66EB /* strokes.swift */,
+				D8D11B402A3CC171001F66EB /* choking.swift */,
+				D8D11B3B2A3CC0CF001F66EB /* heart.swift */,
+			);
+			path = additonalResourcesFolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,13 +243,17 @@
 				D89469A22A38F99F00992299 /* ContentView.swift in Sources */,
 				D83C860E2A3C32E600F2B1B5 /* moreHotlines.swift in Sources */,
 				D8B94FD42A3A86BC0020A345 /* ToDoItem.swift in Sources */,
+				D8D11B432A3CC199001F66EB /* burns.swift in Sources */,
 				83BA4D9F2A3B65F200085749 /* LocalSearchService.swift in Sources */,
 				83BA4DA32A3B665300085749 /* mapmap.swift in Sources */,
 				D8908C422A3A3ECA00EA1948 /* hotlines.swift in Sources */,
+				D8D11B3F2A3CC123001F66EB /* strokes.swift in Sources */,
 				D8B94FDE2A3A89440020A345 /* Persistence.swift in Sources */,
 				D8908C402A3A3EB500EA1948 /* tracker.swift in Sources */,
+				D8D11B412A3CC171001F66EB /* choking.swift in Sources */,
 				D8908C462A3A3EF700EA1948 /* additionalResources.swift in Sources */,
 				D8908C3C2A3A3E8C00EA1948 /* medInfo.swift in Sources */,
+				D8D11B3C2A3CC0CF001F66EB /* heart.swift in Sources */,
 				D89469A02A38F99F00992299 /* Emergency_AppApp.swift in Sources */,
 				83BA4D972A3B657900085749 /* LandmarkListView.swift in Sources */,
 				83BA4D9B2A3B65B500085749 /* MKCoordinateRegion+Extension.swift in Sources */,
