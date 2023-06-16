@@ -14,6 +14,7 @@
 		83BA4D9F2A3B65F200085749 /* LocalSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA4D9E2A3B65F200085749 /* LocalSearchService.swift */; };
 		83BA4DA32A3B665300085749 /* mapmap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA4DA22A3B665300085749 /* mapmap.swift */; };
 		83BA4DA52A3B68B400085749 /* map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BA4DA42A3B68B400085749 /* map.swift */; };
+		D83C860E2A3C32E600F2B1B5 /* moreHotlines.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83C860D2A3C32E600F2B1B5 /* moreHotlines.swift */; };
 		D8908C3A2A3A3E6700EA1948 /* notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C392A3A3E6700EA1948 /* notes.swift */; };
 		D8908C3C2A3A3E8C00EA1948 /* medInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C3B2A3A3E8C00EA1948 /* medInfo.swift */; };
 		D8908C3E2A3A3EA700EA1948 /* calendar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8908C3D2A3A3EA700EA1948 /* calendar.swift */; };
@@ -38,6 +39,7 @@
 		83BA4D9E2A3B65F200085749 /* LocalSearchService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalSearchService.swift; sourceTree = "<group>"; };
 		83BA4DA22A3B665300085749 /* mapmap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mapmap.swift; sourceTree = "<group>"; };
 		83BA4DA42A3B68B400085749 /* map.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = map.swift; sourceTree = "<group>"; };
+		D83C860D2A3C32E600F2B1B5 /* moreHotlines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moreHotlines.swift; sourceTree = "<group>"; };
 		D8908C392A3A3E6700EA1948 /* notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notes.swift; sourceTree = "<group>"; };
 		D8908C3B2A3A3E8C00EA1948 /* medInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medInfo.swift; sourceTree = "<group>"; };
 		D8908C3D2A3A3EA700EA1948 /* calendar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = calendar.swift; sourceTree = "<group>"; };
@@ -80,6 +82,15 @@
 			path = map;
 			sourceTree = "<group>";
 		};
+		D83C860F2A3C37DE00F2B1B5 /* hotlinesFolder */ = {
+			isa = PBXGroup;
+			children = (
+				D8908C412A3A3ECA00EA1948 /* hotlines.swift */,
+				D83C860D2A3C32E600F2B1B5 /* moreHotlines.swift */,
+			);
+			path = hotlinesFolder;
+			sourceTree = "<group>";
+		};
 		D89469932A38F99F00992299 = {
 			isa = PBXGroup;
 			children = (
@@ -107,7 +118,7 @@
 				D8908C3B2A3A3E8C00EA1948 /* medInfo.swift */,
 				D8908C3D2A3A3EA700EA1948 /* calendar.swift */,
 				D8B94FDF2A3A8B3E0020A345 /* trackerFolder */,
-				D8908C412A3A3ECA00EA1948 /* hotlines.swift */,
+				D83C860F2A3C37DE00F2B1B5 /* hotlinesFolder */,
 				D8908C452A3A3EF700EA1948 /* additionalResources.swift */,
 				D89469A32A38F9A000992299 /* Assets.xcassets */,
 				D89469A52A38F9A000992299 /* Preview Content */,
@@ -210,6 +221,7 @@
 				D8908C3A2A3A3E6700EA1948 /* notes.swift in Sources */,
 				D8B94FDC2A3A88E00020A345 /* Emergency App.xcdatamodeld in Sources */,
 				D89469A22A38F99F00992299 /* ContentView.swift in Sources */,
+				D83C860E2A3C32E600F2B1B5 /* moreHotlines.swift in Sources */,
 				D8B94FD42A3A86BC0020A345 /* ToDoItem.swift in Sources */,
 				83BA4D9F2A3B65F200085749 /* LocalSearchService.swift in Sources */,
 				83BA4DA32A3B665300085749 /* mapmap.swift in Sources */,

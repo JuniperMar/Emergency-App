@@ -20,7 +20,7 @@ struct tracker: View {
         VStack {
             
             HStack {
-                Text("To-Do List")
+                Text("Medication Tracker")
                     .font(.system(size: 40))
                     .fontWeight(.black)
                 Spacer()

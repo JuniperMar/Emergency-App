@@ -1,12 +1,12 @@
 {
   "images" : [
     {
-      "filename" : "healthcare.png",
+      "filename" : "healthcare (1).png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "healthcare (1).png",
+      "filename" : "healthcare.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
